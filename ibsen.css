@@ -1,0 +1,31 @@
+.speech {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    color: black;
+  }
+
+  .direction {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    background-color:khaki;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .direction:hover {
+    background-color:aqua;
+    color: white;
+  }
+  
+  .Hovstad {
+    color:midnightblue;
+  }
+  
+  .PeterStockmann {
+    color:fuchsia;
+  }
+  
+  .Aslaksen {
+    color: purple;
+  } 
+  
