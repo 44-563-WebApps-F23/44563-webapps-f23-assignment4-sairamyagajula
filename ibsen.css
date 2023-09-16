@@ -27,4 +27,29 @@
   .Aslaksen {
     color: purple;
   } 
+.actorstable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: bottom 24px;
+}
+
+.actorstable th, .actorstable td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    color:darkorchid;
+}
+
+.actorstable th {
+    background-color: #cae67e;
+    color: white;
+}
+.actorstable tr {
+    background-color: #f2f2f2;
+}
+
+.actorstable th, .actorstable td {
+    width: 33.33%;
+}
   
