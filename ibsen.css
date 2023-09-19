@@ -28,31 +28,28 @@
     color:brown;
   }
 
-.actorstable {
+table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    margin: bottom 24px;
+    margin-bottom: 24px;
 }
 
-.actorstable th, .actorstable td {
-    border: 1px solid #333;
-    padding: 10px;
+th, td {
+    border: 3px solid #10e71e;
+    padding: 15px;
     text-align: center;
     color:darkorchid;
 }
 
-.actorstable th {
-    background-color: #cae67e;
-    color: white;
-}
-.actorstable tr {
-    background-color: #f2f2f2;
+th {
+    background-color: #cae67e;   
 }
 
-.actorstable th, .actorstable td {
-    width: 33.33%;
-}
+tr:nth-child(even) {
+    background-color:burlywood;
+  }
+
 .Hovstad:hover {
     text-shadow:2px 2px 4px #FF5733; 
     border: 2px solid #FF5733;
