@@ -15,7 +15,13 @@
     background-color:#cae67e;
     color:darkred;
   }
-  
+
+  .name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12;
+    color: black;
+  }
+ 
   .Hovstad {
     color:blue;
   }
@@ -27,6 +33,21 @@
   .Aslaksen {
     color:brown;
   }
+  .Hovstad:hover {
+    text-shadow:2px 2px 4px #FF5733; 
+    border: 2px solid #FF5733;
+    cursor: pointer; 
+}
+.PeterStockmann:hover {
+    text-shadow:2px 2px 4px chartreuse; 
+    border:2px solid rgb(128, 204, 240);
+    cursor: pointer; 
+}
+.Aslaksen:hover {
+    text-shadow:2px 2px 4px fuchsia; 
+    border:2px solid lawngreen;
+    cursor: pointer; 
+}
 
 table {
     width: 100%;
@@ -50,21 +71,7 @@ tr:nth-child(even) {
     background-color:burlywood;
   }
 
-.Hovstad:hover {
-    text-shadow:2px 2px 4px #FF5733; 
-    border: 2px solid #FF5733;
-    cursor: pointer; 
-}
-.PeterStockmann:hover {
-    text-shadow:2px 2px 4px chartreuse; 
-    border:2px solid rgb(128, 204, 240);
-    cursor: pointer; 
-}
-.Aslaksen:hover {
-    text-shadow:2px 2px 4px fuchsia; 
-    border:2px solid lawngreen;
-    cursor: pointer; 
-}
+
 
 
 
