@@ -13,11 +13,6 @@
     background-color:#cae67e;
     color:darkred;
   }
-  .name {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 12;
-    color: black;
-  }
   .Hovstad {
     color:blue;
   }
@@ -27,8 +22,6 @@
   .Aslaksen {
     color:brown;
   }
- 
-
 table {
     width: 100%;
     border-collapse: collapse;
