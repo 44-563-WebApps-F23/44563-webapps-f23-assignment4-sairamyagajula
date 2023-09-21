@@ -50,7 +50,7 @@ th {
 tr:nth-child(even) {
     background-color:burlywood;
   }
-  .Hovstad:hover {
+.Hovstad:hover {
     text-shadow:2px 2px 4px #FF5733; 
     border: 2px solid #FF5733;
     cursor: pointer; 
@@ -65,7 +65,22 @@ tr:nth-child(even) {
     border:2px solid lawngreen;
     cursor: pointer; 
 }
+li {
+  display: inline;
+}
+li {
+  float: left;
+}
 
+li {
+  float: left;
+}
+
+li {
+  display: block;
+  padding: 7px;
+  background-color:coral;
+}
 
 
 
